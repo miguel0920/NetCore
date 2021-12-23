@@ -8,11 +8,13 @@ namespace NetIntermedio.IEnumerableI
         private readonly List<Auto> disponibles;
         public TiendaAutos()
         {
-            disponibles = new List<Auto>();
-            disponibles.Add(new Auto("Fit", 50000));
-            disponibles.Add(new Auto("Soul", 4544564));
-            disponibles.Add(new Auto("March", 650000));
-            disponibles.Add(new Auto("Spark", 600050));
+            disponibles = new List<Auto>
+            {
+                new Auto("Fit", 50000),
+                new Auto("Soul", 4544564),
+                new Auto("March", 650000),
+                new Auto("Spark", 600050)
+            };
         }
 
         public IEnumerator<Auto> GetEnumerator()
