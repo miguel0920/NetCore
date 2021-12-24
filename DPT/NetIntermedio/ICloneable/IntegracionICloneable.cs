@@ -1,9 +1,4 @@
 ﻿using NetIntermedio.ICloneable.Implementacion;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace NetIntermedio.ICloneable
 {
@@ -34,7 +29,7 @@ namespace NetIntermedio.ICloneable
 
             coche2.CalcularTenencia(0.5);
             coche3.CalcularTenencia(0.5);
-            
+
             coche2.Costo = 3;
 
             coche2.MostrarInformacion();

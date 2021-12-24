@@ -1,16 +1,7 @@
-﻿using Cliente.AbstractFactory;
-using Cliente.AbstractFactory.Interfaz;
-using Cliente.Facade.Facade;
-using Cliente.Factory_Pattern;
-using Cliente.Factory_Pattern.Interfaz;
-using Cliente.Prototype;
-using NetIntermedio.ICloneable;
-using NetIntermedio.IEnumerableI;
-using NetIntermedio.IEnumerableII;
-using NetIntermedio.Interfaz;
+﻿using NetIntermedio.Delegate;
+using NetIntermedio.IComparable;
 using Singleton.SingletonI;
 using Singleton.SingletonII;
-using System;
 
 namespace Cliente
 {
@@ -18,12 +9,12 @@ namespace Cliente
     {
         static void Main(string[] args)
         {
-            //Con Singleton 1;
-            IntegracionSingletonI.IntegracionSingletonIConsole();
+            // Con Singleton 1;
+            //IntegracionSingletonI.IntegracionSingletonIConsole();
 
-            //Con Singleton 2;
+            // Con Singleton 2;
 
-            IntegracionSingletonII.IntegracionSingletonIIConsole();
+            //IntegracionSingletonII.IntegracionSingletonIIConsole();
 
             //Con Factory;
 
@@ -83,7 +74,16 @@ namespace Cliente
             //IntegracionIEnumerableII.IntegracionIEnumerableIIConsole();
 
             // ICloneable
-            IntegracionICloneable.IntegracionICloneableConsole();
+            //IntegracionICloneable.IntegracionICloneableConsole();
+
+            // IComparate
+            //IntegracionIComparable.IntegracionIComparableConsole();
+
+            // Delegate Simple
+            //IntegracionDelegateISimple.IntegracionDelegateSimpleConsole();
+
+            // Delegate Difficult
+            IntegracionDelegateII.IntegracionDelegateIIConsole();
         }
     }
 }

@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Singleton.SingletonII.Model
+﻿namespace Singleton.SingletonII.Model
 {
     public class TipoDocumento
     {
