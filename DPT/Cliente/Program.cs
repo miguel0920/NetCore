@@ -1,7 +1,4 @@
-﻿using NetIntermedio.Delegate;
-using NetIntermedio.IComparable;
-using Singleton.SingletonI;
-using Singleton.SingletonII;
+﻿using NetIntermedio.SobrecargaOperadorBinario.SobreCargaI;
 
 namespace Cliente
 {
@@ -83,7 +80,13 @@ namespace Cliente
             //IntegracionDelegateISimple.IntegracionDelegateSimpleConsole();
 
             // Delegate Difficult
-            IntegracionDelegateII.IntegracionDelegateIIConsole();
+            //IntegracionDelegateII.IntegracionDelegateIIConsole();
+
+            // Indexer
+            //IntegracionIndexer.IntegracionIndexerConsole();
+
+            // SobreCarga Binaria
+            IntegracionSobreCargaBinariaI.IntegracionSobreCargaBinariaIConsole();
         }
     }
 }

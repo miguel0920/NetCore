@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace NetIntermedio.Delegate.Difficult
 {
@@ -20,14 +16,16 @@ namespace NetIntermedio.Delegate.Difficult
         public int Kilos { get => _kilosAlimentos; set => _kilosAlimentos = value; }
         public int Grados { get => _grados; set => _grados = value; }
 
-        public void AdicionarReserva(ReservasBajas metodo) => reservas = metodo;
-
-        public void AdicionarDescongelado(Descongelado metodo) => descongelado = metodo;
+        public void AdicionarReserva(ReservasBajas metodo) => reservas += metodo;
+        public void EliminarReserva(ReservasBajas metodo) => reservas -= metodo;
+        public void AdicionarDescongelado(Descongelado metodo) => descongelado += metodo;
 
         public void Trabajar(int consumo)
         {
             // Actualizamos los kilos del refrigerio
             _kilosAlimentos -= consumo;
+
+            _grados += 1;
 
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine($"{_kilosAlimentos} kilos, {_grados} grados");
