@@ -1,4 +1,5 @@
-﻿using NetIntermedio.SobrecargaOperadorBinario.SobreCargaI;
+﻿using NetIntermedio.Serialization;
+using NetIntermedio.SobrecargaOperadorBinario.SobreCargaI;
 
 namespace Cliente
 {
@@ -86,7 +87,11 @@ namespace Cliente
             //IntegracionIndexer.IntegracionIndexerConsole();
 
             // SobreCarga Binaria
-            IntegracionSobreCargaBinariaI.IntegracionSobreCargaBinariaIConsole();
+            //IntegracionSobreCargaBinariaI.IntegracionSobreCargaBinariaIConsole();
+
+            // Serialization (SOAP, XML)
+            //IntegracionSerialization.IntegracionSerializationSOAPConsole();
+            IntegracionSerialization.IntegracionSerializationXMLConsole();
         }
     }
 }
