@@ -1,5 +1,6 @@
-﻿using NetIntermedio.Serialization;
-using NetIntermedio.SobrecargaOperadorBinario.SobreCargaI;
+﻿using NetIntermedio.Files;
+using NetIntermedio.Serialization;
+using NetIntermedio.SobrecargaOperadorBinario;
 
 namespace Cliente
 {
@@ -91,7 +92,10 @@ namespace Cliente
 
             // Serialization (SOAP, XML)
             //IntegracionSerialization.IntegracionSerializationSOAPConsole();
-            IntegracionSerialization.IntegracionSerializationXMLConsole();
+            //IntegracionSerialization.IntegracionSerializationXMLConsole();
+
+            // File
+            IntegracionFile.IntegracionFileConsole();
         }
     }
 }

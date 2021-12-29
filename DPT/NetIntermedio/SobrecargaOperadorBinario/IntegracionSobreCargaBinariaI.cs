@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NetIntermedio.SobrecargaOperadorBinario.SobreCargaI
+namespace NetIntermedio.SobrecargaOperadorBinario
 {
     public class IntegracionSobreCargaBinariaI
     {
