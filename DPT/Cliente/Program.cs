@@ -1,6 +1,7 @@
 ﻿using NetIntermedio.Files;
 using NetIntermedio.Serialization;
 using NetIntermedio.SobrecargaOperadorBinario;
+using NetIntermedio.Stream;
 
 namespace Cliente
 {
@@ -95,7 +96,10 @@ namespace Cliente
             //IntegracionSerialization.IntegracionSerializationXMLConsole();
 
             // File
-            IntegracionFile.IntegracionFileConsole();
+            //IntegracionFile.IntegracionFileConsole();
+
+            //Stream
+            IntegracionStream.IntegracionStreamConsole();
         }
     }
 }

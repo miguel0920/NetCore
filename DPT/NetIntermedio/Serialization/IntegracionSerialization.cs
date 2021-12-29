@@ -10,7 +10,7 @@ namespace NetIntermedio.Serialization
         public static void IntegracionSerializationSOAPConsole()
         {
             SoapFormatter formatter = new();
-            Stream stream;
+            System.IO.Stream stream;
             Console.WriteLine("1. Para serializar el laptop, 2. para leer la laptop");
             string option = Console.ReadLine();
             switch (option)
@@ -50,7 +50,7 @@ namespace NetIntermedio.Serialization
         public static void IntegracionSerializationXMLConsole()
         {
             XmlSerializer formatter;
-            Stream stream;
+            System.IO.Stream stream;
             Console.WriteLine("1. Para serializar el laptop, 2. para leer la laptop");
             string option = Console.ReadLine();
             switch (option)
