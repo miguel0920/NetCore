@@ -12,6 +12,7 @@
   <ItemGroup>
     <ProjectReference Include="..\NetIntermedio\NetIntermedio.csproj" />
     <ProjectReference Include="..\Singleton\PatronesDeDiseño.csproj" />
+    <ProjectReference Include="..\SOLID\SOLID.csproj" />
   </ItemGroup>
 
 </Project>

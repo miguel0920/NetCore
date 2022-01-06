@@ -2,6 +2,7 @@
 using NetIntermedio.Serialization;
 using NetIntermedio.SobrecargaOperadorBinario;
 using NetIntermedio.Stream;
+using SOLID.SingletonResponsibility;
 
 namespace Cliente
 {
@@ -99,7 +100,12 @@ namespace Cliente
             //IntegracionFile.IntegracionFileConsole();
 
             //Stream
-            IntegracionStream.IntegracionStreamConsole();
+            //IntegracionStream.IntegracionStreamConsole();
+
+            /**************************************************
+             * SOLID Ejemplos
+             **************************************************/
+            ImplementacionSingleton.ImplementacionSingletonConsole();
         }
     }
 }
