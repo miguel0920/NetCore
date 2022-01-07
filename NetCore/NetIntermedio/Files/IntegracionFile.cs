@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace NetIntermedio.Files
 {
@@ -45,7 +41,7 @@ namespace NetIntermedio.Files
                     stream = new FileStream("PhoneFile.arc", FileMode.Open, FileAccess.Read, FileShare.None);
 
                     BinaryReader binaryReader = new(stream);
-                    
+
                     string modeloFile = binaryReader.ReadString();
                     double precioFile = binaryReader.ReadDouble();
 

@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SOLID.OpenClosed
 {
@@ -10,6 +7,7 @@ namespace SOLID.OpenClosed
     {
         public static void ImplementacionOpenClosedConsole()
         {
+            Console.WriteLine("Aplicar principio abierto cerrado incorrecto");
             List<Wrong.Producto> productos = new()
             {
                 new Wrong.Producto("Papas", 1, 12.5),
@@ -22,6 +20,22 @@ namespace SOLID.OpenClosed
 
             Wrong.Tienda tienda = new(productos);
             tienda.CalcularInventario();
+
+            Console.WriteLine("\n----------------------------\n");
+
+            Console.WriteLine("Aplicar principio abierto cerrado correcto");
+            List<Refactor.BaseInventario> productosRefactor = new()
+            {
+                new Refactor.InventarioAlimento(new Refactor.Producto("Papas", 1, 12.5)),
+                new Refactor.InventarioMedicamento(new Refactor.Producto("Analgesico", 2, 12.5)),
+                new Refactor.InventarioAlimento(new Refactor.Producto("Tomate", 1, 12.5)),
+                new Refactor.InventarioMedicamento(new Refactor.Producto("Antiacido", 2, 12.5)),
+                new Refactor.InventarioAlimento(new Refactor.Producto("Manzana", 1, 12.5)),
+                new Refactor.InventarioMedicamento(new Refactor.Producto("Antibiotico", 2, 12.5))
+            };
+
+            Refactor.Tienda tiendaRefactor = new(productosRefactor);
+            tiendaRefactor.CalcularInventario();
         }
     }
 }

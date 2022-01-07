@@ -1,14 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SOLID.OpenClosed.Wrong
 {
     public class Tienda
     {
-        public Tienda(List<Wrong.Producto> productos)
+        public Tienda(List<Producto> productos)
         {
             _products = productos;
         }
@@ -43,6 +40,6 @@ namespace SOLID.OpenClosed.Wrong
             Console.WriteLine($"El total en inventario es {total}");
         }
 
-        private List<Wrong.Producto> _products;
+        private List<Producto> _products;
     }
 }
