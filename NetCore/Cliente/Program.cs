@@ -2,6 +2,7 @@
 using NetIntermedio.Serialization;
 using NetIntermedio.SobrecargaOperadorBinario;
 using NetIntermedio.Stream;
+using SOLID.OpenClosed;
 using SOLID.SingletonResponsibility;
 
 namespace Cliente
@@ -105,7 +106,12 @@ namespace Cliente
             /**************************************************
              * SOLID Ejemplos
              **************************************************/
-            ImplementacionSingleton.ImplementacionSingletonConsole();
+            
+            // Singleton
+            //ImplementacionSingleton.ImplementacionSingletonConsole();
+
+            //OpenClosed
+            ImplementacionOpenClosed.ImplementacionOpenClosedConsole();
         }
     }
 }
