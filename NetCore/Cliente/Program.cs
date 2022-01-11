@@ -1,4 +1,5 @@
-﻿using SOLID.Liskov;
+﻿using SOLID.Interface;
+using SOLID.Liskov;
 
 namespace Cliente
 {
@@ -109,7 +110,10 @@ namespace Cliente
             //ImplementacionOpenClosed.ImplementacionOpenClosedConsole();
 
             //Liskov
-            ImplementacionLiskov.ImplementacionLiskovConsole();
+            //ImplementacionLiskov.ImplementacionLiskovConsole();
+
+            //Interface
+            ImplementacionInterface.ImplementacionInterfaceConsole();
         }
     }
 }
