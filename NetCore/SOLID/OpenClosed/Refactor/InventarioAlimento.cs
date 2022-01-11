@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace SOLID.OpenClosed.Refactor
+﻿namespace SOLID.OpenClosed.Refactor
 {
     public class InventarioAlimento : BaseInventario
     {

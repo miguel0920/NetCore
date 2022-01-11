@@ -1,4 +1,4 @@
-﻿using SOLID.OpenClosed;
+﻿using SOLID.Liskov;
 
 namespace Cliente
 {
@@ -106,7 +106,10 @@ namespace Cliente
             //ImplementacionSingleton.ImplementacionSingletonConsole();
 
             //OpenClosed
-            ImplementacionOpenClosed.ImplementacionOpenClosedConsole();
+            //ImplementacionOpenClosed.ImplementacionOpenClosedConsole();
+
+            //Liskov
+            ImplementacionLiskov.ImplementacionLiskovConsole();
         }
     }
 }
