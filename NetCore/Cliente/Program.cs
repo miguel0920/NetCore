@@ -1,4 +1,5 @@
-﻿using SOLID.Interface;
+﻿using SOLID.DependencyInversion;
+using SOLID.Interface;
 using SOLID.Liskov;
 
 namespace Cliente
@@ -113,7 +114,10 @@ namespace Cliente
             //ImplementacionLiskov.ImplementacionLiskovConsole();
 
             //Interface
-            ImplementacionInterface.ImplementacionInterfaceConsole();
+            //ImplementacionInterface.ImplementacionInterfaceConsole();
+
+            //Dependency Inversion
+            ImplementacionDependencyInversion.ImplementacionDependencyInversionConsole();
         }
     }
 }
