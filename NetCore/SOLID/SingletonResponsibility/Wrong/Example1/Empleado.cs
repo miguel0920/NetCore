@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SOLID.SingletonResponsibility.Wrong
+namespace SOLID.SingletonResponsibility.Wrong.Example1
 {
     public class Empleado
     {

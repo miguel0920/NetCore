@@ -1,4 +1,4 @@
-﻿namespace SOLID.SingletonResponsibility.Refactor
+﻿namespace SOLID.SingletonResponsibility.Refactor.Example1
 {
     public class Empleado
     {
