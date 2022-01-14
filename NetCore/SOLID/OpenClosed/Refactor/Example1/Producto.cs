@@ -1,4 +1,4 @@
-﻿namespace SOLID.OpenClosed.Wrong
+﻿namespace SOLID.OpenClosed.Refactor.Example1
 {
     public class Producto
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace SOLID.OpenClosed.Wrong
+namespace SOLID.OpenClosed.Wrong.Example1
 {
     public class Tienda
     {

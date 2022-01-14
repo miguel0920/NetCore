@@ -1,6 +1,7 @@
 ﻿using SOLID.DependencyInversion;
 using SOLID.Interface;
 using SOLID.Liskov;
+using SOLID.OpenClosed;
 using SOLID.SingletonResponsibility;
 
 namespace Cliente
@@ -106,10 +107,10 @@ namespace Cliente
              **************************************************/
 
             // Singleton
-            ImplementacionSingleton.ImplementacionSingletonConsole();
+            //ImplementacionSingleton.ImplementacionSingletonConsole();
 
             //OpenClosed
-            //ImplementacionOpenClosed.ImplementacionOpenClosedConsole();
+            ImplementacionOpenClosed.ImplementacionOpenClosedConsole();
 
             //Liskov
             //ImplementacionLiskov.ImplementacionLiskovConsole();

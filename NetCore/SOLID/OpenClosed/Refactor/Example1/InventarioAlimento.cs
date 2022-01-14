@@ -1,4 +1,4 @@
-﻿namespace SOLID.OpenClosed.Refactor
+﻿namespace SOLID.OpenClosed.Refactor.Example1
 {
     public class InventarioAlimento : BaseInventario
     {
