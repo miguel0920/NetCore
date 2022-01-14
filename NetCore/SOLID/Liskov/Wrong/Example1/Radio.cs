@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SOLID.Liskov.Wrong
+namespace SOLID.Liskov.Wrong.Example1
 {
     public class Radio : Noticiero
     {

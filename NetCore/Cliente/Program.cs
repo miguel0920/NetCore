@@ -110,10 +110,10 @@ namespace Cliente
             //ImplementacionSingleton.ImplementacionSingletonConsole();
 
             //OpenClosed
-            ImplementacionOpenClosed.ImplementacionOpenClosedConsole();
+            //ImplementacionOpenClosed.ImplementacionOpenClosedConsole();
 
             //Liskov
-            //ImplementacionLiskov.ImplementacionLiskovConsole();
+            ImplementacionLiskov.ImplementacionLiskovConsole();
 
             //Interface
             //ImplementacionInterface.ImplementacionInterfaceConsole();

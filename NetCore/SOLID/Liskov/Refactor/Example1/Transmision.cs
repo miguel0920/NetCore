@@ -1,4 +1,4 @@
-﻿namespace SOLID.Liskov.Refactor
+﻿namespace SOLID.Liskov.Refactor.Example1
 {
     public abstract class Transmision
     {

@@ -4,4 +4,8 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Liskov\Refactor\Example2\" />
+  </ItemGroup>
+
 </Project>
